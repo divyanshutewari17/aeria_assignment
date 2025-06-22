@@ -1,0 +1,18 @@
+.c-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-auto-rows: 60px;
+  justify-content: start;
+}
+
+.c-top {
+  grid-column: auto;
+}
+
+.c-side {
+  grid-column: 1;
+}
+
+.c-bottom {
+  grid-column: auto;
+}
